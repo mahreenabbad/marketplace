@@ -3,6 +3,7 @@ use anchor_lang::prelude::*;
 #[account]
 #[derive(Default)]
 pub struct GlobalPool {
+   
     // 8 + 368
     pub super_admin: Pubkey,        // 32
     pub market_fee_sol: u64,        // 8    Permyriad
